@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "中外教师互访编排",
+  "source_context": "https://world.people.com.cn/n1/2026/0924/c1002-40804903.html",
+  "actors": [
+    "派出院校",
+    "接收院校",
+    "国际交流专员"
+  ],
+  "states": [
+    "邀请",
+    "准备",
+    "暂占",
+    "确认",
+    "访问"
+  ],
+  "invariants": [
+    "多资源预约",
+    "跨时区",
+    "身份权限",
+    "过期清理"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09303-003-A",
+      "actor": "派出院校",
+      "state": "邀请"
+    },
+    {
+      "case_id": "09303-003-B",
+      "actor": "国际交流专员",
+      "state": "准备"
+    }
+  ],
+  "tags": [
+    "teacher-exchange",
+    "multi-resource-booking"
+  ]
+}
